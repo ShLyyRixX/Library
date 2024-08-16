@@ -4,7 +4,7 @@
 
     ```bash
 
-    git clone <repository-url>
+    git clone https://github.com/ShLyyRixX/Library.git
     cd library
     ```
 
@@ -68,8 +68,7 @@ Pagination will automatically appear when you add more than 10 books.
 
 To run the unit tests, use the following command:
 
-    ```bash
 
     python manage.py test
-    ```
+    
 
