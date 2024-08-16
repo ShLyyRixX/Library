@@ -8,7 +8,7 @@
     cd library
     ```
 
- 2. Create a PostgreSQL database
+ 2. Create a PostgreSQL database.
     Make sure you have PostgreSQL installed. Run the following commands to create a new database:
 
     ```sql
@@ -21,7 +21,7 @@
     GRANT ALL PRIVILEGES ON DATABASE library TO library;
     ```
 
-3. Install dependencies
+3. Install dependencies.
     Create a virtual environment and activate it:
 
     ```bash
@@ -37,7 +37,7 @@
     pip install -r requirements.txt
     ```
 
-4. Apply migrations
+4. Apply migrations.
     Run the migrations to set up the database schema:
 
     ```bash
@@ -45,7 +45,7 @@
     python manage.py migrate
     ```
 
-5. Run the server
+5. Run the server.
     Start the Django development server:
 
     ```bash
